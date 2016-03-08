@@ -1,0 +1,42 @@
+body {
+/* EXERCISE 1 BEFORE
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  AFTER
+  font: italic normal 16px/140% Helvetica, Arial, sans-serif;
+   */
+}
+
+article p {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+code {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+mark {
+  background-color: yellow;
+  font-size: 12px;
+  font-family: monospace;;
+}
+
+.ex-3-p {
+  font-size: 18px;
+}
+
+#cap-bold {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+strong {
+  font-size: 15px;
+}

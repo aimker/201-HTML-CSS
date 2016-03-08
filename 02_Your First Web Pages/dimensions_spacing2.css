@@ -1,0 +1,16 @@
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+#first {
+  background-color: #ffcccc;
+  padding: 20px;
+}
+
+#second {
+  background-color: #ccccff;
+  border: 2px solid #000; /*Now the blue box is wider because the body+padding+border sum is bigger in the blue box, than in the pink one.  */
+}
