@@ -13,9 +13,9 @@ header {
   padding-top: 100px;
 }
 
+
 main,
 footer {
-  display: flex;
   background-color: white;
   margin-left: 4.15%;
   margin-right: 4.15%;
@@ -40,14 +40,12 @@ main article {
 .article-title {
   color: #45494d;
   padding-bottom: 20px;
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 36px;
 }
 
 .subtitle {
   color: #3e98b2;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
 }
 
 main p {
@@ -59,15 +57,17 @@ main p {
 footer {
   background-color: #e7e7e7;
   margin-bottom: 120px;
-  padding: 40px 10% 40px 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 footer ul {
   list-style-type: none;
   text-align: center;
+  margin: 0;
 }
 
 footer ul li {
-  display: inline-block;
+  display: inline;
   margin: 0 60px;
 }
