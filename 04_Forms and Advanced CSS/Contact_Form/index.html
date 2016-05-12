@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form action="" method="post" id="contact-form">
+      <fieldset>
+        <ul>
+          <li>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" />
+          </li>
+          <li>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name"/>
+          </li>
+          <li>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com" inputmode="email"/>
+          </li>
+          <li>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"/>
+          </li>
+          <li>
+            <label for="state">State</label>
+            <select name="state">
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DC</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+          </li>
+          <li>
+            <label for="zipcode">Zipcode</label>
+            <input type="number" name="zipcode" id="zipcode" maxlength="5" inputmode="numeric"/>
+          </li>
+          <li>
+            <label for="favorite-color">Which of these colors do you most prefer?</label>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="favorite-color" value="#3ed37d" checked/>
+                  <input type="color" name="favorite-color" value="#3ed37d" disabled/>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="favorite-color" value="#9b59b6"/>
+                  <input type="color" name="favorite-color" value="#9b59b6" disabled/>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="favorite-color" value="#c0392b"/>
+                  <input type="color" name="favorite-color" value="#c0392b" disabled/>
+                </label>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="favtech">What web technologies do you want to hear more about?</label>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" value="HTML" name="html"/>
+                  HTML
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="CSS" name="css" />
+                  CSS
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="JavaScript" name="javascript" />
+                  JavaScript
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="Ruby" name="ruby" />
+                  Ruby
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" value="Python" name="python" />
+                  Python
+                </label>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="comment">Comment</label>
+            <textarea name="comment" rows="10" cols="40"></textarea>
+          </li>
+          <input type="date" value="2016/11/05" hidden name="timestamp" />
+          <li>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
+</html>
