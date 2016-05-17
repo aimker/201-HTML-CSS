@@ -72,7 +72,7 @@ main p {
   color: #45494d;
   font-size: 20px;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 26px;
   padding: 0 100px;
   text-align: justify;
 }
@@ -129,4 +129,71 @@ footer p {
 
 .instagram:before {
   background-position: 0 100%;
+}
+
+/* Projects Page */
+
+.projects main h2 {
+  padding-top: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.projects main {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.projects main article {
+  padding: 60px 20px 30px 20px;
+}
+
+.projects article {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.projects article img {
+  max-width: 95%;
+}
+
+.projects main article:last-child {
+  border: none;
+}
+
+/* Team Page */
+
+.team-page main p {
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.team-page main ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.team-page main li {
+  display: inline-block;
+  width: 20%;
+}
+
+.team-page main li a {
+  color: #3e59b2;
+  font-size: 24px;
+  text-decoration: none;
+  float: left;
+}
+
+.team-page main li img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.team-page main h3 {
+  text-align: center;
+}
+
+
+.team-page main li:first {
+  padding-left: 0;
 }
