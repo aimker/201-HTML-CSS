@@ -49,10 +49,7 @@ main {
   /*font-family: "Nunito", Helvetica, Arial, sans-serif;*/
   padding-right: 10%;
   padding-left: 10%;
-}
-
-main article:first-child {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 main article {
@@ -68,7 +65,13 @@ main article {
 .subtitle {
   color: #3e59b2;
   font-size: 24px;
+  padding-bottom: 25px;
 }
+
+main h2 {
+  margin-bottom: 40px;
+}
+
 
 main p {
   color: #45494d;
@@ -146,6 +149,10 @@ footer p {
   padding: 60px 20px 30px 20px;
 }
 
+.projects .subtitle {
+  padding-top: 20px;
+}
+
 .projects article {
   border-bottom: 1px solid #bfbfbf;
 }
@@ -172,7 +179,7 @@ footer p {
 
 .team-page main li {
   display: inline-block;
-  width: 20%;
+  padding: 0 30px;
 }
 
 .team-page main li a {
