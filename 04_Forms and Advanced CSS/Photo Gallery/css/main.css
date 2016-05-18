@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+body {
+  background-color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0 105px;
+}
+
+main {
+  background-color: #333;
+  padding: 45px 20px 20px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ececec;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+figure {
+  padding-bottom: 40px;
+}
+
+figure img {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 15px solid #fff;
+  box-sizing: border-box;
+}
+
+figcaption {
+  color: #ececec;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 -15px;
+}
+
+li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 25%;
+}
+
+.thumbnail {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #fff;
+}
