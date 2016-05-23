@@ -1,0 +1,153 @@
+@import url("reset.css");
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: #3d3d3d;
+  padding: 150px 0 50px 0;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 140px 0;
+}
+
+header h1 img {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+header nav li a.selected,
+main section a {
+  color: #50c3af;
+}
+
+main, footer {
+  min-width: 768px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+  padding: 90px 0;
+  overflow: auto;
+}
+
+
+
+main section {
+  max-width: 76.6%;
+  margin: 0;
+  padding-right: 12%;
+  float: left;
+  box-sizing: border-box;
+  color: #45494d;
+}
+
+main article {
+  padding-bottom: 100px;
+}
+
+main section h3 {
+  font-size: 36px;
+}
+
+main section p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main section p.subtitle {
+  padding: 20px 0;
+}
+
+main aside {
+  max-width: 23.4%;
+  background-color: #f6f7f8;
+  padding: 40px 5% 40px 40px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+main aside h4 {
+  font-size: 16px;
+  color: #40474e;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+
+main aside ul {
+  padding-bottom: 125px;
+}
+
+main aside li:before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  padding-right: 5px;
+  content: "";
+  background: url("../img/list-bullet.png") 0 0 no-repeat;
+}
+
+main aside li a,
+main aside p {
+  color: #787b80;
+  font-size: 14px;
+}
+
+main section .buttons a.button {
+  padding: 5px 25px;
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: #50c3af;
+  color: #fff;
+  text-decoration: none;
+}
+
+main section .buttons a.disabled-button {
+  background-color: #d2d5da;
+  pointer-events: none;
+  cursor: default;
+}
+
+main section .buttons .button:last-child {
+  margin-left: 30px;
+}
+
+
+main aside p {
+  text-align: justify;
+}
+
+footer {
+  border-top: 1px solid #898c91;
+  padding: 20px 0 55px 0;
+}
+
+footer p {
+  color: #898c91;
+  font-size: 12px;
+}
