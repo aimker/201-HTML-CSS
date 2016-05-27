@@ -40,7 +40,8 @@ a {
 }
 
 header nav li a.selected,
-main section a {
+main section a,
+main section h3 a:hover {
   color: #50c3af;
 }
 
@@ -65,7 +66,7 @@ main article {
   padding-bottom: 100px;
 }
 
-main section h3 {
+main section h3 a {
   font-size: 36px;
 }
 
@@ -124,7 +125,8 @@ main aside p {
 
 /* PREVIOUS/NEXT BUTTONS */
 
-main section .buttons a.button {
+main section .buttons a.button,
+.post-page .comment-post a.button {
   padding: 5px 25px;
   font-size: 14px;
   border-radius: 30px;
@@ -153,6 +155,93 @@ footer {
 footer p {
   color: #898c91;
   font-size: 12px;
+}
+
+
+/* POST PAGE */
+
+section.post-page article h2,
+.post-page div h2 {
+  font-size: 36px;
+  color: #45494d;
+}
+
+.post-page article a h2:hover {
+  color: #50c3af;
+}
+
+.post-page .comments-section .comment .subtitle,
+.post-page .comments-section .comment .subtitle a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.subtitle.chris,
+p.subtitle.kevin {
+  padding-bottom: 40px;
+}
+
+p.subtitle.chris {
+  padding-top: 40px;
+}
+
+.kevin:before,
+.chris:before {
+  position: relative;
+  top: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 49px;
+  height: 49px;
+  content: "";
+  background: url("../img/kevin.png") 0 0 no-repeat;
+  border-radius: 100%;
+}
+
+.chris:before {
+  background: url("../img/chris.png") -6px 0 no-repeat;
+  background-color: #e8e8e8;
+  background-size: 120%;
+}
+
+.comments-section {
+  margin-bottom: 50px;
+}
+
+.comment-post h2 {
+  margin-bottom: 40px;
+}
+
+.comment-post form input,
+.comment-post form textarea {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.comment-post form input {
+  height: 40px;
+}
+
+.comment-post form textarea {
+  padding-top: 7px;
+  resize: none;
+}
+
+.comment-post form input.button {
+  width: auto;
+  padding: 5px 25px;
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: #50c3af;
+  color: #fff;
+  text-decoration: none;
+  border: none;
 }
 
 /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
@@ -191,7 +280,9 @@ footer p {
     padding: 0 25px;
   }
 
-  main section h3 {
+  main section h3 a,
+  .post-page div h2,
+  section.post-page article h2 {
     font-size: 24px;
   }
 
@@ -241,7 +332,6 @@ footer p {
     padding-bottom: 0;
   }
 }
-
 
 /* 480 PIXELS */
 @media (max-width: 480px) {

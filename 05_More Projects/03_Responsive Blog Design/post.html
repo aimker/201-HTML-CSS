@@ -15,8 +15,8 @@
       </a>
       <nav>
         <ul>
-          <li><a href="#" class="selected">Home</a></li><!--
-          --><li><a href="#">HTML</a></li><!--
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="#" class="selected">HTML</a></li><!--
           --><li><a href="#">CSS</a></li><!--
           --><li><a href="#">JavaScript</a></li>
         </ul>
@@ -24,20 +24,34 @@
     </header>
 
     <main>
-      <section>
+      <section class="post-page">
         <article>
-          <h3><a href="post.html">Post Headline</a></h3>
+          <a href="#"><h2>Post Headline</h2></a>
           <p class="subtitle">Written by <a href="#">Shane Riley</a> on <time>Feb.15, 2014</time></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex ea commodo consequat. Duis aute irure dolor in rprehenderit in voluptate velit esse culpa qui officia deserunt mollit.</p>
         </article>
-        <article>
-          <h3><a href="post.html">Post Headline</a></h3>
-          <p class="subtitle">Written by <a href="#">Shane Riley</a> on <time>Feb.15, 2014</time></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex ea commodo consequat. Duis aute irure dolor in rprehenderit in voluptate velit esse culpa qui officia deserunt mollit.</p>
-        </article>
-        <div class="buttons">
-          <a href="#" class="button disabled-button">Prev</a>
-          <a href="#" class="button">Next</a>
+
+        <div class="comments-section">
+          <h2>Comments</h2>
+          <div class="comment">
+            <p class="subtitle kevin"><a href="#">Kevin</a> on <time>Feb.15, 2014</time></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <div class="comment">
+            <p class="subtitle chris"><a href="#">Chris</a> on <time>Feb.15, 2014</time></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+
+        <div class="comment-post">
+          <h2>Post Comments</h2>
+          <form action="" method="post" id="comment-form" />
+          <input type="text" placeholder="Enter your Name" name="name" />
+          <input type="text" placeholder="Enter your Email Address" name="email" />
+          <textarea placeholder="Enter your Comments" rows="4" form="comment-form" name="comment" ></textarea>
+          <input type="submit" class="button" value="Submit">
         </div>
       </section>
       <aside>
